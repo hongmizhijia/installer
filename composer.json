@@ -1,0 +1,14 @@
+{
+    "name": "hongmizhijia/installer",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {"hongmizhijia\\Composer": "src/"}
+    },
+    "extra": {
+        "class": "hongmizhijia\\Composer\\InstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "1.0.0"
+    }
+}
